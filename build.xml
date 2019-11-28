@@ -16,9 +16,11 @@
             <!--zipfileset excludes="META-INF/*.SF" src="C:/Users/ty/Downloads/commons-rng-1.2/commons-rng-core-1.2.jar"/-->
             <!--zipfileset excludes="META-INF/*.SF" src="C:/Users/ty/Downloads/commons-text-1.8/commons-text-1.8.jar"/-->
             <!--zipfileset excludes="META-INF/*.SF" src="C:/Users/ty/Downloads/commons-csv-1.7/commons-csv-1.7.jar"/-->
-            <zipfileset excludes="META-INF/*.SF" src="/root/commons-csv-1.7.jar"/>
-            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
-            <zipfileset excludes="META-INF/*.SF" src="C:/Program Files/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+            <!--zipfileset excludes="META-INF/*.SF" src="C:/Program Files/eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar"/-->
+            <!--zipfileset excludes="META-INF/*.SF" src="C:/Program Files/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar"/-->
+            <zipfileset excludes="META-INF/*.SF" src="/root/Software-Testing/commons-csv-1.7.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/root/Software-Testing/junit.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/root/Software-Testing/org.hamcrest.core_1.3.0.v201303031735.jar"/>
         </jar>
     </target>
 </project>
